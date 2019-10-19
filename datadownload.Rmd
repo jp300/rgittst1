@@ -20,3 +20,11 @@ download.url
 dplyr:
 
 add functions here
+
+```{r}
+library(tidyverse)
+library(sp)
+library(maps)
+library(maptools)
+```
+
