@@ -38,3 +38,9 @@ ggplot(mtcars)+
         facet_wrap(~vs)
 ```
 
+plot with histogram
+```{r}
+ggplot(mtcars, aes(mpg))+
+        geom_histogram(binwidth = 1)
+```
+
