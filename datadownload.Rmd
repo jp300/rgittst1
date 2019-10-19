@@ -26,5 +26,9 @@ library(tidyverse)
 library(sp)
 library(maps)
 library(maptools)
+library(MASS)
+names(mtcars)
+ggplot(mtcars)+
+        geom_point(aes(x=mpg, y=wt, shape = factor(cyl), colour = factor(cyl)))
 ```
 
