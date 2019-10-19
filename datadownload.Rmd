@@ -1,0 +1,20 @@
+---
+title: "datadownload"
+author: "jz"
+output: github_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Overview
+
+This file we are going to look at hwo to download data from website
+
+## data function
+
+download.url
+
+## data cleaning
+dplyr:
