@@ -27,8 +27,14 @@ library(sp)
 library(maps)
 library(maptools)
 library(MASS)
-names(mtcars)
+head(mtcars)
 ggplot(mtcars)+
         geom_point(aes(x=mpg, y=wt, shape = factor(cyl), colour = factor(cyl)))
+```
+plot with facet
+```{r}
+ggplot(mtcars)+
+        geom_point(aes(x=mpg, y=wt, shape = factor(cyl), colour = factor(cyl)))+
+        facet_wrap(~vs)
 ```
 
